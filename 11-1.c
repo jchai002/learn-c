@@ -1,13 +1,14 @@
 #include <stdio.h>
-void Print(char ch);
+
 int main()
 {
-   char str = 'a';
-   char *ptr;
-   ptr=&str;
-   Print(*ptr);
-}
+  int x=512;
+  int y=1024;
+  int z=2048;
 
-void Print(char ch) {
-  printf("%c\n", ch);
+  printf("x: left value:%p, right value:%d\n",&x,x );
+  printf("y: left value:%p, right value:%d\n",&y,y );
+  printf("z: left value:%p, right value:%d\n",&z,z );
+
+  return 0;
 }
