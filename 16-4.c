@@ -13,8 +13,6 @@ main()
 {
 char *str[7] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
 };
-
 StrPrint(str);
-
 return 0;
 }
